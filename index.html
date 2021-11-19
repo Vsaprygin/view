@@ -29,12 +29,7 @@ td {
     <div id="content"></div>  
       
 <script type="text/javascript">
-    $.ajax({
-        url: 'https://json.vsaprygin.ru/view/content1.php',
-        success: function(data) {
-            $('#content').html(data);
-        }
-    });
+mode();
 function mode() {
     $.ajax({
         url: 'https://json.vsaprygin.ru/view/content1.php',
